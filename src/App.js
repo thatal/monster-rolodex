@@ -10,9 +10,8 @@ class App extends React.Component {
 			monsters: [],
 			searchField:""
 		}
-		this.handleChange = this.handleChange.bind(this);
 	}
-	handleChange = function(e){
+	handleChange = e =>{
 		this.setState({
 			searchField: e.target.value
 		})
